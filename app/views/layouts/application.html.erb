@@ -11,7 +11,14 @@
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
+  <nav class="navbar navbar-light bg-light">
+  <a class="navbar-brand" href="#">Mahoney's Bar</a>
+  <div class="btn btn-primary text-decoration-none"><%= link_to "New", new_cocktail_path%></div>
+  </nav>
+
   <body>
-    <%= yield %>
+    <div class="container">
+      <%= yield %>
+    </div>
   </body>
 </html>
