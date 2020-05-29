@@ -3,9 +3,11 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 16px;
     height: 400px;
+    margin-top: 10px;
 }
 
 .card-category {
+  text-decoration: none;
   background-size: cover;
   background-position: center;
   height: 180px;
