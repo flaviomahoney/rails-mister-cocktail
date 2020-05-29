@@ -14,3 +14,7 @@ Ingredient.create(name: "Orange")
 Ingredient.create(name: "Caipirinha")
 Ingredient.create(name: "Rum")
 Ingredient.create(name: "Cinnamon")
+Ingredient.create(name: "Beer")
+Ingredient.create(name: "Gim")
+Ingredient.create(name: "Soda")
+
