@@ -12,13 +12,11 @@
   </head>
 
   <nav class="navbar navbar-light bg-dark">
-  <a class="navbar-brand" id="font-link" href="/">Mahoney's Bar</a>
-  <div class="btn btn-primary bg-dark border border-light"><%= link_to "New", new_cocktail_path%></div>
+  <a class="navbar-brand" id="font-link" href="/"><i class="fas fa-glass-martini-alt"></i></a>
+  <div class="btn btn-primary bg-dark border border-light"><%= link_to "Add a Drink", new_cocktail_path%></div>
   </nav>
 
   <body>
-    <div class="container">
-      <%= yield %>
-    </div>
+    <%= yield %>
   </body>
 </html>
